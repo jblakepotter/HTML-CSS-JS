@@ -31,7 +31,7 @@ h4 {
   margin-right: 0px;
   margin-top: auto;
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 p {
@@ -44,11 +44,9 @@ p {
   height: 300px;
   margin-right: auto;
   margin-left: auto;
-  text-anchor: middle;
   color: white;
-  font-size: 20px;
-  padding: 10px;
-  clear: left;
+  font-size: 22px;
+  padding: 42px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
