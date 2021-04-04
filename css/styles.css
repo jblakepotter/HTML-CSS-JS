@@ -1,29 +1,78 @@
 * {
   box-sizing: border-box;
-}
+  margin: 0px;
+  padding: 0px;}
+
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: auto;
+  font-size: 64px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
 }
+h2 {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: darkslategray;
+}
+h4 {
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right:30px;
+  float: right;
+  position: static;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
+  background-image: url(https://i.imgur.com/4Xy2Xt1.jpg);
+  background-position: center;
+  background-size: 40%;
+  border: 2px solid black;
+  position: static;
+  width: 100%;
+  height: 300px;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-anchor: middle;
   color: white;
+  font-size: 20px;
+  padding: 10px;
+  clear: left;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.power{
+  background-color: darkred;         
+  color: orange;
+  }
+.wisdom{
+  background-color: goldenrod;
+  color: black;  
+ }
+.courage{
+  background-color:#17165d;
+  color: lightcyan;   
+}
 .row {
   width: 100%;
 }
 
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
+  { 
+    float: right;
+    padding: 15px;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -63,10 +112,10 @@ p {
   }
 }
 
-@media (min-width: 991px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
+    float: right;
+    padding: 15px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -107,8 +156,8 @@ p {
 }
 @media (max-width: 767px) {
   .col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8, .col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12 {
-    float: left;
-    border: 1px solid green;
+    float: right;
+    padding:15px;
   }
   .col-mb-1 {
     width: 8.33%;
